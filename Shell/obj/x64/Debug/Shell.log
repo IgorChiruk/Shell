@@ -1,0 +1,28 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.56.101'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\user\source\repos\Shell\Shell\main.cpp(211,19): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\user\source\repos\Shell\Shell\main.cpp(211,19): warning :       if(q1.find(q)!=-1)
+C:\Users\user\source\repos\Shell\Shell\main.cpp(211,19): warning :          ~~~~~~~~~~^~~~
+C:\Users\user\source\repos\Shell\Shell\main.cpp(259,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\user\source\repos\Shell\Shell\main.cpp(259,22): warning :        if (q1.find(q) != -1)
+C:\Users\user\source\repos\Shell\Shell\main.cpp(259,22): warning :            ~~~~~~~~~~~^~~~~
+C:\Users\user\source\repos\Shell\Shell\main.cpp(305,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\user\source\repos\Shell\Shell\main.cpp(305,22): warning :        if (q1.find(q) != -1)
+C:\Users\user\source\repos\Shell\Shell\main.cpp(305,22): warning :            ~~~~~~~~~~~^~~~~
+C:\Users\user\source\repos\Shell\Shell\main.cpp(354,23): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\user\source\repos\Shell\Shell\main.cpp(354,23): warning :   if (i == 4) { return "Folder"; }
+C:\Users\user\source\repos\Shell\Shell\main.cpp(354,23): warning :                        ^~~~~~~~
+C:\Users\user\source\repos\Shell\Shell\main.cpp(355,28): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\user\source\repos\Shell\Shell\main.cpp(355,28): warning :   else if (i == 8) { return "File"; }
+C:\Users\user\source\repos\Shell\Shell\main.cpp(355,28): warning :                             ^~~~~~
+C:\Users\user\source\repos\Shell\Shell\main.cpp(356,14): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\Users\user\source\repos\Shell\Shell\main.cpp(356,14): warning :   else return "XZ";
+C:\Users\user\source\repos\Shell\Shell\main.cpp(356,14): warning :               ^~~~
+  Linking objects
+C:\Users\user\source\repos\Shell\Shell\obj\x64\Debug\main.o : error : In function `main':
+C:\Users\user\source\repos\Shell\Shell\main.cpp(61): warning : the `getwd' function is dangerous and should not be used.
+  Shell.vcxproj -> C:\Users\user\source\repos\Shell\Shell\bin\x64\Debug\Shell.out

@@ -1,0 +1,1 @@
+g++ -o "/home/mer13/projects/Shell/bin/x64/Debug/Shell.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/mer13/projects/Shell/obj/x64/Debug/main.o
